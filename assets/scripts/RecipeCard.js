@@ -139,7 +139,7 @@ class RecipeCard extends HTMLElement {
     </div>
     <time>${data.lengthTime} min</time>
     <p class="ingredients">
-      ${data.ingredients.toString()}
+      ${data.ingredients}
     </p>
     `;
     // A7. TODO - Set the contents of the <article> with the <article> template given in
